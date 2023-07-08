@@ -59,3 +59,5 @@ Ubuntu 에 apache(httpd) 를 설치하고 index.html 생성(닉네임 출력)하
 
 # 결과
 <img width="430" alt="image" src="https://github.com/chamdodari2/terraform-study/assets/78536511/976762d4-eada-4b3c-823f-51b05d0fd494">
+<img width="339" alt="image" src="https://github.com/chamdodari2/terraform-study/assets/78536511/bc717f7d-b8b8-45b2-8227-b75da5922eec">
+
