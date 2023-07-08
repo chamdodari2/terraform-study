@@ -25,7 +25,8 @@ Ubuntu 에 apache(httpd) 를 설치하고 index.html 생성(닉네임 출력)하
 ~~~
 
 01.backend
-
+- provider.tf
+  - aws provider 사용, region을 서울로 설정 
  - main.tf
    - backend용 S3 Bucket, DynamoDB Table 생성 
    - Output block으로 리소스 생성 확인
@@ -34,6 +35,8 @@ Ubuntu 에 apache(httpd) 를 설치하고 index.html 생성(닉네임 출력)하
 
 
 02.vpc
+- provider.tf
+  - aws provider 사용, region을 서울로 설정 
 - backend.tf
   - remote backend 사용 (S3,dynamodb)
  - main.tf
@@ -42,6 +45,8 @@ Ubuntu 에 apache(httpd) 를 설치하고 index.html 생성(닉네임 출력)하
    - vpc.id, subnet.id값 확인 및 ec2 생성시 값 참조
 
 03.ec2
+- provider.tf
+  - aws provider 사용, region을 서울로 설정 
  - data.tf
    - vpc id, subnet id 값 참조 
  - main.tf
