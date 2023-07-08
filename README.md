@@ -49,9 +49,8 @@ Ubuntu 에 apache(httpd) 를 설치하고 index.html 생성(닉네임 출력)하
  - output.tf
    - 생성된 ec2.id값 확인
  - user-data-test-instance.sh
-   - ec2 userdata (httpd 설치 및 "dodary-Yeji" 출력되도록 함)
+   - ec2 userdata (httpd 설치 및 "dodary-Yejin" 출력되도록 함)
   
 
 # 결과
-1.ec2의 public ip로 접속시
 <img width="430" alt="image" src="https://github.com/chamdodari2/terraform-study/assets/78536511/976762d4-eada-4b3c-823f-51b05d0fd494">
